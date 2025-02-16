@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "target": "ES2017"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/Sidebar/index.jsx",
+    "src/components/Sidebar/SidebarItem.tsx",
+    "src/components/Header/index.jtsx",
+    "src/app/signup/page.jsx",
+    "src/app/signin/page.jsx",
+    "src/app/dashboard/page.jsx",
+    "src/components/Header/DropdownUser.jsx",
+    "src/components/Layouts/DefaultLayout.tsx",
+    "src/app/layout.jsx",
+    "src/components/Header/index.jsx",
+    "src/app/profile/page.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,10 @@
+!/media/profile_pictures/default.png
+/media/*
+/media/profile_pictures/*
+db.sqlite3
+.env
+**/__init__.py
+**/__pycache__/
+env
+venv
+/models/*
